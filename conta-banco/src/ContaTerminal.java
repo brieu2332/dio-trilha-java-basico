@@ -2,19 +2,20 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-
+        
+        //variaveis
         int numero;
         String agencia = "";
         String nomeCliente = "";
         double saldo;
 
-        Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);//scanner para ler variveis
 
         System.out.println("diga o numero inteiro:");
         numero = ler.nextInt();
 
         System.out.println("diga sua agência:");
-        agencia = ler.next();
+        agencia = ler.next();//le string
 
         System.out.println("diga seu nome:");
         nomeCliente = ler.next();
